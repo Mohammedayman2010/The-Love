@@ -1,0 +1,71 @@
+:root {
+  --pink: #ffc0cb;
+  --dark-red: #d32f2f;
+  --white: #ffffff;
+  --gold: #ffd700;
+  --light-salmon: #ffa07a;
+}
+
+body {
+  background: var(--pink);
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  color: var(--dark-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  color: var(--dark-red);
+  font-size: 16px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+a button {
+  background-color: var(--dark-red);
+}
+ 
+a button {
+  color: var(--light-salmon);
+}
+a button {
+  text-transform: uppercase;
+  padding: 5px;
+  border: none;
+}
+a button:hover {
+  cursor: pointer;
+}
+
+strong {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.sound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
